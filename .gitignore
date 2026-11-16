@@ -1,0 +1,25 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local logs and editor/OS temporary files
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Dependency/cache directories if introduced later
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Dedicated local-only folders; do not place tracked reference data here
+private/
+backups/
+
+# Extend after the technical stack is approved.
+# Ignoring does not remove already tracked files or erase Git history.
